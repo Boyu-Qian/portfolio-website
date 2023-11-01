@@ -1,0 +1,58 @@
+.form {
+    width:50%;
+    margin-bottom: 1rem !important;
+    padding-bottom: 1rem !important;
+
+    &__input-box-2 {
+        margin-bottom: 0;
+        padding-bottom: 0;
+        font-size: 3rem;
+        width: 100%;
+        height: 7.5rem;
+        border-radius: 1rem;
+        border: 2px solid transparent;
+        border-bottom: 2px solid $color-black;
+
+        &:focus {
+            outline:none;
+        }
+    }
+
+    &__input-box-1 {
+        margin-bottom: 0;
+        padding-bottom: 0;
+        font-size: 3rem;
+        width:100%;
+        height:7.5rem;
+        border-radius: 1rem;
+        border: 2px solid transparent;
+        border-bottom: 2px solid $color-black;
+
+        &:focus {
+            outline: none;
+        }
+    }
+    &__input-box-3 {
+        text-align: to-upper-case($string: "");
+        margin-bottom: 0;
+        padding-bottom: 0;
+        font-size: 3rem;
+        width:100%;
+        height:15rem;
+        border-radius: 1rem;
+        border: 2px solid transparent;
+        border-bottom: 2px solid $color-black;
+
+        &:focus {
+            outline: none;
+        }
+    }
+
+    &__input-btn {
+        width:100% !important;
+        border-radius: 2px;
+        border-bottom: 2px solid $color-black ;
+        background-color: $color-personal-4;
+        color:$color-personal-1;
+    }
+}

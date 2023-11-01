@@ -1,0 +1,52 @@
+@keyframes moveInLeft {
+    0% {
+        opacity:0;  
+        transform: translateX(-100px);  
+    }
+    /* 70% {
+        transform:translateX(15px);
+    } */
+    100% {
+        opacity:1;
+        transform:translateX(0);
+    }
+}
+@keyframes moveInRight {
+    0% {
+        opacity:0;  
+        transform: translateX(+150px);  
+    }
+    50% {
+        
+    }
+    100% {
+        opacity:1;
+        transform:translateX(0);
+        
+    }
+}
+
+@keyframes moveInBottom {
+    0% {
+        opacity:0;  
+        transform: translateY(+150px);  
+    }
+    
+    100% {
+        opacity:1;
+        transform:translateX(0);
+        
+    }
+}
+
+
+
+
+@keyframes showUp {
+    0%{
+        opacity:0;
+    }
+    100%{
+        opacity:1;
+    }
+}
